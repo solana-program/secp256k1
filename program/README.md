@@ -20,7 +20,7 @@ This program serves two primary purposes:
    logic.
 2. **Reference Implementation:** The source code acts as a reference implementation
    demonstrating how to correctly parse instruction data and integrate the
-   [`solana-secp256k1-verify`](../solana-secp256k1-verify) library into your own
+   [`solana-secp256k1-verify`](../secp256k1-verify) library into your own
    SBF programs.
 
 For full usage instructions, instruction data layouts, and SDK builder helpers, please refer to the [Root Repository README](../README.md).
