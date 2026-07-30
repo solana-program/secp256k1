@@ -2749,7 +2749,6 @@ version = "0.1.0"
 dependencies = [
  "hex",
  "solana-address 2.6.1",
- "solana-define-syscall 5.1.0",
  "solana-instruction",
  "solana-keccak-hasher",
  "solana-secp256k1-recover",
