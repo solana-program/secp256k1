@@ -8,7 +8,7 @@ crate-type = ["rlib"]
 
 [features]
 default = ["verify", "instruction", "keccak"]
-verify = ["dep:solana-secp256k1-recover", "dep:solana-define-syscall"]
+verify = ["dep:solana-secp256k1-recover"]
 instruction = ["dep:solana-instruction", "dep:solana-address"]
 keccak = ["dep:solana-keccak-hasher"]
 sha256 = ["dep:solana-sha256-hasher"]
@@ -18,7 +18,6 @@ sha256 = ["dep:solana-sha256-hasher"]
 solana-secp256k1-recover = { workspace = true, optional = true }
 solana-keccak-hasher = { workspace = true, optional = true }
 solana-sha256-hasher = { workspace = true, optional = true }
-solana-define-syscall = { workspace = true, optional = true }
 solana-instruction = { workspace = true, optional = true }
 solana-address = { workspace = true, optional = true }
 
