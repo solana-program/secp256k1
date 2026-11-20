@@ -11,7 +11,7 @@ unexpected_cfgs = { level = "warn", check-cfg = [
 [workspace.dependencies]
 hex = "0.4.3"
 k256 = "0.13.4"
-mollusk-svm = "0.13.4"
+mollusk-svm = "0.17.1"
 pinocchio = "0.11.2"
 sha3 = "0.12.0"
 solana-address = "2.6.1"
